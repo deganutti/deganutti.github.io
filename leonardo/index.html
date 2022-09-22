@@ -1,154 +1,147 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Leprino Foods</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Leprino Foods</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
 
 
-    <!--     Fonts and icons     -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+        <!--     Fonts and icons     -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+            integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
 
-    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
 
 
 
-
-    <script src='js/main.js'></script>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
 
 
 
 
+        <script src='js/main.js'></script>
 
-</head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
-<body>
-    <h6>
-        Projeto Leonardo Leprino FOODS
-    </h6>
-    <form>
-        <div class="row">
-            <div class="col">
-                <div class="alert alert-primary" role="alert">
-                    <label for="valor_mucarela">Valor Muçarela</label>
-                    <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon1">R$/kg</span>
-                        <input type="number" class="form-control valor" id="valor_mucarela" name="valor_mucarela">
-                    </div>
-                    <label for="gramas_mucarela">Gramas por unidade</label>
-                    <input type="number" class="form-control valor" id="gramas_mucarela" name="gramas_mucarela"
-                        value="400">
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <div class="alert alert-danger" role="alert">
-                    <label for="valor_pizza_cheese">Valor Pizza Cheese</label>
-                    <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon1">R$/kg</span>
-                        <input type="number" class="form-control valor" id="valor_pizza_cheese"
-                            name="valor_pizza_cheese">
-                    </div>
-                    <label for="gramas_pizza_cheese">Gramas por unidade</label>
-                    <input type="number" class="form-control valor" id="gramas_pizza_cheese" name="gramas_pizza_cheese"
-                        value="360" disabled="disabled">
-                </div>
-            </div>
-        </div>
-        <div class="alert alert-info" role="alert">
+
+
+
+
+    </head>
+
+    <body>
+        <h6>
+            Calculo ganho PIZZA Cheese
+        </h6>
+        <form>
             <div class="row">
                 <div class="col">
-                    <label for="pizza_mes">Pizza por mês</label>
-                    <input type="number" class="form-control valor" id="pizza_mes" name="pizza_mes">
+                    <div class="alert alert-primary" role="alert">
+                        <label for="valor_mucarela">Valor Muçarela</label>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1">R$/kg</span>
+                            <input type="number" class="form-control valor" id="valor_mucarela" name="valor_mucarela">
+                        </div>
+                        <label for="gramas_mucarela">Gramas por unidade</label>
+                        <input type="number" class="form-control valor" id="gramas_mucarela" name="gramas_mucarela"
+                            value="400">
+                    </div>
                 </div>
             </div>
-
             <div class="row">
                 <div class="col">
-                    <label for="custo_mucarela">Custo Muçarela</label>
-                    <input type="number" class="form-control valor" id="custo_mucarela" name="custo_mucarela"
-                        disabled="disabled">
-
-                    <label for="custo_pizza_cheese">Custo Pizza Cheese</label>
-                    <input type="number" class="form-control valor" id="custo_pizza_cheese" name="custo_pizza_cheese"
-                        disabled="disabled">
-                </div>
-            </div>
-        </div>
-        <br>
-        <div class="row">
-            <div class="btn-group" role="group">
-                <button type="button" class="btn btn-danger" onclick="getCalculaValores()">Calcular</button>
-                <button type="button" class="btn btn-success calcular" data-bs-toggle="modal"
-                    data-bs-target="#staticBackdrop">Mostrar Resumo</button>
-            </div>
-        </div>
-
-        <!--Modal de retorno resumo total-->
-        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-            aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="staticBackdropLabel">Resultado</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-
-                        <div class="alert alert-danger" role="alert">
-
-                            <label for="ganho_unidade">Ganhos sobre a muçarela</label>
+                    <div class="alert alert-danger" role="alert">
+                        <label for="valor_pizza_cheese">Valor Pizza Cheese</label>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1">R$/kg</span>
+                            <input type="number" class="form-control valor" id="valor_pizza_cheese"
+                                name="valor_pizza_cheese">
                         </div>
-
-                        <div class="alert alert-primary" role="alert">
-                            <label for="ganho_unidade">Por unidade</label>
-                            <input type="number" class="form-control" id="ganho_unidade" name="ganho_unidade"
-                                disabled="disabled">
-                            <label for="ganho_mes">Por mês</label>
-                            <input type="number" class="form-control" id="ganho_mes" name="ganho_mes"
-                                disabled="disabled">
-                            <label for="ganho_ano">Por ano</label>
-                            <input type="number" class="form-control" id="ganho_ano" name="ganho_ano"
-                                disabled="disabled">
-
-
-
-
-
-
-                        </div>
-
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+                        <label for="gramas_pizza_cheese">Gramas por unidade</label>
+                        <input type="number" class="form-control valor" id="gramas_pizza_cheese"
+                            name="gramas_pizza_cheese" value="360" disabled="disabled">
                     </div>
                 </div>
             </div>
-        </div>
-        <!--Modal de retorno resumo total final-->
+            <div class="alert alert-info" role="alert">
+                <div class="row">
+                    <div class="col">
+                        <label for="pizza_mes">Pizza por mês</label>
+                        <input type="number" class="form-control valor" id="pizza_mes" name="pizza_mes">
+                    </div>
+                </div>
 
-    </form>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-        crossorigin="anonymous"></script>
-</body>
+                <div class="row">
+                    <div class="col">
+                        <label for="custo_mucarela">Custo Muçarela</label>
+                        <input type="number" class="form-control valor" id="custo_mucarela" name="custo_mucarela"
+                            disabled="disabled">
+
+                        <label for="custo_pizza_cheese">Custo Pizza Cheese</label>
+                        <input type="number" class="form-control valor" id="custo_pizza_cheese"
+                            name="custo_pizza_cheese" disabled="disabled">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-danger" onclick="getCalculaValores()">Calcular</button>
+                    <button type="button" class="btn btn-success calcular" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">Mostrar Resumo</button>
+                </div>
+            </div>
+
+            <!--Modal de retorno resumo total-->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">Resultado</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+
+                            <div class="alert alert-danger" role="alert">
+
+                                <label for="ganho_unidade">Ganhos sobre a muçarela</label>
+                            </div>
+
+                            <div class="alert alert-primary" role="alert">
+                                <label for="ganho_unidade">Por unidade</label>
+                                <input type="number" class="form-control" id="ganho_unidade" name="ganho_unidade"
+                                    disabled="disabled">
+                                <label for="ganho_mes">Por mês</label>
+                                <input type="number" class="form-control" id="ganho_mes" name="ganho_mes"
+                                    disabled="disabled">
+                                <label for="ganho_ano">Por ano</label>
+                                <input type="number" class="form-control" id="ganho_ano" name="ganho_ano"
+                                    disabled="disabled">
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Modal de retorno resumo total final-->
+        </form>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+            crossorigin="anonymous"></script>
+    </body>
 
 </html>
