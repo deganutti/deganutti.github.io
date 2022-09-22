@@ -16,26 +16,15 @@
             integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
             crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-
-
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
 
-
-
         <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
-
-
-
 
         <script src='js/main.js'></script>
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-
-
-
-
 
     </head>
 
@@ -77,7 +66,8 @@
                 <div class="row">
                     <div class="col">
                         <label for="pizza_mes">Pizza por mês</label>
-                        <input type="number" class="form-control valor" id="pizza_mes" name="pizza_mes">
+                        <input type="number" class="form-control valor" id="pizza_mes" name="pizza_mes"
+                            onblur="getCalculaCusto()">
                     </div>
                 </div>
 
