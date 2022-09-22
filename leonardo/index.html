@@ -66,8 +66,7 @@
                 <div class="row">
                     <div class="col">
                         <label for="pizza_mes">Pizza por mês</label>
-                        <input type="number" class="form-control valor" id="pizza_mes" name="pizza_mes"
-                            onblur="getCalculaCusto()">
+                        <input type="number" class="form-control valor" id="pizza_mes" name="pizza_mes">
                     </div>
                 </div>
 
@@ -86,6 +85,7 @@
             <br>
             <div class="row">
                 <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-info" onclick="getCalculaCusto()">Calcular</button>
                     <button type="button" class="btn btn-success calcular" data-bs-toggle="modal"
                         data-bs-target="#staticBackdrop">Mostrar Resumo</button>
                 </div>
