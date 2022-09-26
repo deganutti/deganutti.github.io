@@ -18,7 +18,6 @@ function getCalculaCusto() {
     document.getElementById("gramas_pizza_cheese").value = gramasCheese.toFixed(2);
     document.getElementById("custo_mucarela").value = custoMucarela.toFixed(2);
     document.getElementById("custo_pizza_cheese").value = custoPizzaCheese.toFixed(2);
-    document.getElementById("gramas_mucarela").value = gramasMucarela.toFixed(2);
     getCalculaValores(custoMucarela, custoPizzaCheese)
 }
 
