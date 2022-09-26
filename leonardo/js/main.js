@@ -23,7 +23,13 @@ function getCalculaCusto() {
 }
 
 
+function calculaGramas() {
+    var gramasMucarela = document.getElementById("gramas_mucarela").value;
 
+    var gramasCheese = gramasMucarela - (gramasMucarela * 0.10);
+
+    document.getElementById("gramas_pizza_cheese").value = gramasCheese.toFixed(2);
+}
 
 function getCalculaValores(custoMucarela, custoPizzaCheese) {
 
