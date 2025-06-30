@@ -1,0 +1,33 @@
+{
+"Cocari":{    
+    "Data":"Janeiro 2024 - Atual",
+    "Local":"Cooperativa COCARI - Unidade de São Luiz",
+    "Profissao":"Técnico Agricola",
+    "Atividades":"Acompanhamento de produção de Soja, Milho e Trigo junto aos cooperados. Acompanhamento da sanidade destas culturas, recomendando manejo integrado de pragas (MIP),manejo integrado de doenças (MID) e manejo integrado de plantas daninhas (MIPD). Recomendação de defensivos baseado nos levantamentos técnicos. Recomendação de cultivares conforme perfil tecnológico empregado para o plantio. Recomendação de adubação conforme necessidade da cultivar e perfil de solo. Recomendação de calagem conforme analise laboratórial, afim de corrigir pH do solo, toxidade de radicais de aliminio e hidrogenio. Atendimento ao produtor sanando dúvidas e indicações de maneiras eficazes de produção."
+     },
+"Coroaves":{    
+    "Data":"Setembro 2010 - Junho 2011",
+    "Local":"Frangos Maringá - Coroaves",
+    "Profissao":"Técnico em Agropecuária",
+    "Atividades":"Responsável pela vacinação e sanidade de frangos de corte de 1 dia até 21 dias(ultima vacina aplicada), assim como responsável pelo alojamento dos mesmos nos produtores."        
+    },
+"Usacucar":{    
+    "Data":"Abril 2008 - Dezembro 2008",
+    "Local":"Usina Santa Terezinha · Temporário",
+    "Profissao":"Técnico em Agricola",
+    "Atividades":"Responsável pelo levantamento e controle da praga broca da cana com controle biológico com Cotesia Flavips."
+    },
+"Joao Maria":{    
+    "Data":"Janeiro 2005 - Abril 2005",
+    "Local":"João Maria de Almeida · Temporário",
+    "Profissao":"Técnico em Agricola",
+    "Atividades":"Responsável pelo levantamento de pragas em cultura de Soja, assim como reconhecimento de doenças referente a cultura"
+    },
+"Copacol":{    
+    "Data":"Janeiro 2003 - Fevereiro 2003",
+    "Local":"Cooperativa agricola Consolata Copacol · Estágio",
+    "Profissao":"Técnico em Agricola",
+    "Atividades":"Estagio supervisionado, em Curso Técnico em Agropecuária."
+}
+ 
+}
