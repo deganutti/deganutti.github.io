@@ -1,0 +1,11 @@
+{
+"cultura": {
+    "Soja": "leguminosas",
+    "Feijão": "leguminosas",
+    "Trigo": "gramineas",
+    "Milho": "gramineas",
+    "Pastagem": "gramineas",
+    "Olericolas": "gramineas",
+    "Café": "leguminosas"   
+  }
+}

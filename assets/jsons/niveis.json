@@ -1,0 +1,140 @@
+{
+  "pH": {
+    "4.00": "Muito Baixo",
+    "4.40": "Baixo",
+    "4.90": "Médio",
+    "5.50": "Alto",
+    "6.00": "Evitar"
+  },
+  "Al": {
+    "0.30": "Muito Baixo",
+    "0.70": "Baixo",
+    "1.50": "Médio",
+    "2.50": "Alto"
+  },
+  "Ca": {
+    "0.50": "Muito Baixo",
+    "1.00": "Baixo",
+    "2.00": "Médio",
+    "6.00": "Alto"
+  },
+  "Mg": {
+    "0.20": "Muito Baixo",
+    "0.40": "Baixo",
+    "1.00": "Médio",
+    "2.00": "Alto"
+  },
+  "m": {
+    "5.00": "Muito Baixo",
+    "10.00": "Baixo",
+    "20.00": "Médio",
+    "50.00": "Alto"
+  },
+  "V1": {
+    "20.00": "Muito Baixo",
+    "35.00": "Baixo",
+    "50.00": "Médio",
+    "70.00": "Alto",
+    "90.00": "Evitar"
+  },
+  "CTC_pH7": {
+    "5.00": "Muito Baixo",
+    "7.00": "Baixo",
+    "14.00": "Médio",
+    "24.00": "Alto"
+  },
+  "CTC_Efetiva": {
+    "1.10": "Muito Baixo",
+    "2.00": "Baixo",
+    "4.00": "Médio",
+    "8.00": "Alto"
+  },
+  "CO": {
+    "4.00": "Muito Baixo",
+    "8.00": "Baixo",
+    "14.00": "Médio",
+    "20.00": "Alto"
+  },
+  "MO": {
+    "0.70": "Muito Baixo",
+    "1.40": "Baixo",
+    "2.40": "Médio",
+    "3.40": "Alto"
+  },
+  "P": {
+    "argila": {
+      "<25": {
+        "6.00": "Muito Baixo",
+        "12.00": "Baixo",
+        "18.00": "Médio",
+        "24.00": "Alto",
+        "24.01": "Muito Alto",
+        "120.00": "Evitar"
+      },
+      "25-40": {
+        "4.00": "Muito Baixo",
+        "8.00": "Baixo",
+        "12.00": "Médio",
+        "18.00": "Alto",
+        "18.01": "Muito Alto",
+        "90.00": "Evitar"
+      },
+      ">40": {
+        "3.00": "Muito Baixo",
+        "6.00": "Baixo",
+        "9.00": "Médio",
+        "12.00": "Alto",
+        "12.01": "Muito Alto",
+        "60.00": "Evitar"
+      },
+      "Olericola": {
+        "8.00": "Muito Baixo",
+        "20.00": "Baixo",
+        "50.00": "Médio",
+        "100.00": "Alto",
+        "100.01": "Muito Alto",
+        "300.00": "Evitar"
+      },
+      "Florestas": {
+        "2.00": "Muito Baixo",
+        "3.00": "Baixo",
+        "5.00": "Médio",
+        "7.00": "Alto",
+        "7.01": "Muito Alto",
+        "28.00": "Evitar"
+      },
+      "Pastagens": {
+        "2.00": "Muito Baixo",
+        "3.00": "Baixo",
+        "6.00": "Médio",
+        "10.00": "Alto",
+        "10.01": "Muito Alto",
+        "40.00": "Evitar"
+      }
+    }
+  },
+  "K2O": {
+    "K_Trocavel": {
+      "0.06": "Muito Baixo",
+      "0.12": "Baixo",
+      "0.21": "Médio",
+      "0.45": "Alto",
+      "0.46": "Muito Alto"
+    },
+    "%K_pH_7_0": {
+      "0.50": "Muito Baixo",
+      "1.00": "Baixo",
+      "2.00": "Médio",
+      "3.00": "Alto",
+      "3.01": "Muito Alto",
+      "10.00": "Evitar"
+    },
+    "Olericolas_Alfafa_Cafe": {
+      "0.15": "Muito Baixo",
+      "0.30": "Baixo",
+      "0.45": "Médio",
+      "1.20": "Alto",
+      "1.21": "Muito Alto"
+    }
+  }
+}

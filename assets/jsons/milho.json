@@ -1,0 +1,47 @@
+{
+  "planta": {
+    "Soja": "leguminosas",
+    "Feijão": "leguminosas",
+    "Trigo": "gramineas",
+    "Milho": "gramineas",
+    "Pastagem": "gramineas",
+    "Olericolas": "gramineas",
+    "Café": "leguminosas"   
+  },
+  "gramineas": {
+      "8": {
+        "semeadura": 30,
+        "cobertura": 80
+      },
+      "10": {
+        "semeadura": 30,
+        "cobertura": 110
+      },
+      "12": {
+        "semeadura": 40,
+        "cobertura": 140
+      },
+      "12.01": {
+        "semeadura": 40,
+        "cobertura": 170
+      }
+    },
+     "leguminosas": {
+      "8": {
+        "semeadura": 20,
+        "cobertura": 60
+      },
+      "10": {
+        "semeadura": 30,
+        "cobertura": 80
+      },
+      "12": {
+        "semeadura": 30,
+        "cobertura": 100
+      },
+      "12.01": {
+        "semeadura": 30,
+        "cobertura": 120
+      }
+    }
+}

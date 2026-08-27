@@ -1,174 +1,327 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Curriculum Vitae de Luiz Gabriel Deganutti - Técnico em Agropecuária, Agrônomo em formação, MIP, Manejo de Solo, Biológicos e Auditoria Agrícola.">
+  <meta name="theme-color" content="#0f3d2e">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Curriculun Vitae</title>
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
-        <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
-        <link href="css/main.css?ver=1.1.0" rel="stylesheet">
-        <noscript>
-            <style type="text/css">
-                [data-aos] {
-                    opacity: 1 !important;
-                    transform: translate(0) scale(1) !important;
-                }
-            </style>
-        </noscript>
-    </head>
+  <!-- SEO básico -->
+  <!-- IMPORTANTE: após publicar, troque SEU_USUARIO e NOME_DO_REPOSITORIO pela URL real do GitHub Pages. -->
+  <link rel="canonical" href="https://github.com/deganutti/deganutti.github.io">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="author" content="Luiz Gabriel Deganutti">
+  <meta name="keywords" content="Luiz Gabriel Deganutti, Currículo Técnico em Agropecuária, Técnico em Agropecuária Sarandi PR, Agrônomo em formação, MIP, manejo de solo, auditoria agrícola, agropecuária Paraná, controle biológico, análise de solo">
 
-    <body id="top" onload="dadosLuiz()">
-        <header>
-            <div class="profile-page sidebar-collapse">
-                <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
-                    <div class="container">
-                        <div class="navbar-translate"><a class="navbar-brand" href="#" rel="tooltip">Curriculun
-                                Vitae</a>
-                            <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse"
-                                data-target="#navigation" aria-controls="navigation" aria-expanded="false"
-                                aria-label="Toggle navigation"><span class="navbar-toggler-bar bar1"></span><span
-                                    class="navbar-toggler-bar bar2"></span><span
-                                    class="navbar-toggler-bar bar3"></span></button>
-                        </div>
-                        <div class="collapse navbar-collapse justify-content-end" id="navigation">
-                            <ul class="navbar-nav">
-                                <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">Sobre</a></li>
-                                <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Skills</a></li>
-                                <li class="nav-item"><a class="nav-link smooth-scroll"
-                                        href="#experience">Experiencias</a></li>
-                                <li class="nav-item"><a class="nav-link smooth-scroll"
-                                        href="http://wa.me/5544998180434?text=Olá Luiz, estou entrando em contato atraves so seu CV online!"
-                                        target="_blank">Contato</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
+  <!-- Open Graph / compartilhamento social -->
+  <meta property="og:type" content="profile">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Luiz Gabriel Deganutti | Curriculum Vitae">
+  <meta property="og:description" content="Técnico em Agropecuária, Agrônomo em formação, com experiência em MIP, manejo de solo, biológicos, auditoria agrícola e assistência técnica no campo.">
+  <meta property="og:url" content="https://github.com/deganutti/deganutti.github.io">
+  <meta property="og:image" content="https://github.com/deganutti/deganutti.github.io/assets/img/agro-background.svg">
+
+  <!-- Twitter/X Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Luiz Gabriel Deganutti | Curriculum Vitae">
+  <meta name="twitter:description" content="Currículo online de Técnico em Agropecuária e Agrônomo em formação, com atuação em MIP, manejo de solo, biológicos e auditoria agrícola.">
+  <meta name="twitter:image" content="https://github.com/deganutti/deganutti.github.io/assets/img/agro-background.svg">
+
+  <!-- Dados estruturados Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Luiz Gabriel Deganutti",
+    "jobTitle": "Técnico em Agropecuária | Agrônomo em Formação",
+    "description": "Técnico em Agropecuária com experiência em MIP, sanidade vegetal, nutrição, manejo de solo, biológicos, auditoria agrícola e gestão de equipes.",
+    "email": "mailto:deganutti@outlook.com.br",
+    "telephone": "+55 44 99818-0434",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sarandi",
+      "addressRegion": "PR",
+      "addressCountry": "BR"
+    },
+    "url": "https://github.com/deganutti/deganutti.github.io",
+    "sameAs": [
+      "https://www.linkedin.com/in/luiz-gabriel-deganutti-20a8245b"
+    ],
+    "knowsAbout": [
+      "Técnico em Agropecuária",
+      "Manejo Integrado de Pragas",
+      "Manejo de Solo",
+      "Análise de Solo",
+      "Auditoria Agrícola",
+      "Controle Biológico",
+      "Agroquímicos",
+      "PROAGRO",
+      "Crédito Rural"
+    ],
+    "alumniOf": [
+      {
+        "@type": "EducationalOrganization",
+        "name": "Colégio Agrícola Senador Carlos Gomes de Oliveira"
+      },
+      {
+        "@type": "EducationalOrganization",
+        "name": "Uniasselvi"
+      }
+    ]
+  }
+  </script>
+
+  <title>Luiz Gabriel Deganutti | Técnico em Agropecuária</title>
+
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+  <nav class="navbar navbar-expand-lg fixed-top navbar-cv" aria-label="Menu principal">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#inicio">
+        <span class="brand-mark">LG</span>
+        <span class="brand-name">Curriculum Vitae</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Abrir menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+          <li class="nav-item"><a class="nav-link" href="#perfil">Perfil</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experiencia">Experiência</a></li>
+          <li class="nav-item"><a class="nav-link" href="#competencias">Competências</a></li>
+         <!-- <li class="nav-item"><a class="nav-link" href="analise-de-solo.html">Análise de Solo</a></li>-->
+          <li class="nav-item"><a class="nav-link" href="#formacao">Formação</a></li>
+          <li class="nav-item"><a class="nav-link" href="#cursos">Cursos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+          <li class="nav-item ms-lg-2"><a class="btn btn-success btn-sm px-3" href="assets/cv-luiz-gabriel.pdf" aria-disabled="true" title="Adicione seu PDF nessa pasta para ativar">Baixar CV</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main id="conteudo">
+    <header id="inicio" class="cv-hero">
+      <img class="hero-bg" src="assets/img/agro-background.svg" alt="">
+      <div class="hero-overlay"></div>
+      <div class="container position-relative">
+        <div class="row min-vh-100 align-items-center g-5 py-5">
+          <div class="col-lg-7" data-aos="fade-up">
+            <span class="eyebrow">Curriculum Vitae</span>
+            <h1 class="display-4 fw-bold text-white mt-3 mb-3">Luiz Gabriel Deganutti</h1>
+            <p class="hero-subtitle mb-4">Técnico em Agropecuária | Agrônomo em Formação | MIP | Agroquímicos | Manejo de Solo | Biológicos</p>
+            <div class="d-flex flex-wrap gap-2 mb-4">
+              <span class="hero-tag"><i class="bi bi-geo-alt"></i>Sarandi - PR</span>
+              <span class="hero-tag"><i class="bi bi-award"></i>CFTA ativo</span>
+              <span class="hero-tag"><i class="bi bi-truck"></i>MOPP válido - Cat. B</span>
             </div>
-        </header>
-        <div class=" page-content">
-            <div>
-                <div class="profile-page">
-                    <div class="wrapper">
-                        <div class="page-header page-header-small" filter-color="green">
-                            <div class="page-header-image" data-parallax="true"
-                                style="background-image: url('images/topo.jpg')"></div>
-                            <div class="container">
-                                <div class="content-center">
-                                    <div class="cc-profile-image">
-                                        <a href="#"><img src="images/foto.jpg" alt="Image" /></a>
-                                    </div>
-                                    <div class="h2 title" id="nome">Nome</div>
-                                    <p class="category text-white" id="profissao">Profissão
-                                    </p>
-                                    <a class="btn btn-primary smooth-scroll mr-2"
-                                        href="http://wa.me/5544998180434?text=Olá Luiz, estou entrando em contato atraves so seu CV online!"
-                                        data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Me encontre</a>
-                                    <a class="btn btn-primary" data-aos="zoom-in" data-aos-anchor="data-aos-anchor"
-                                        href="/cv/cv.pdf" target="_blank">Download CV</a>
-                                </div>
-                            </div>
-                            <div class="section">
-                                <div class="container">
-                                    <div class="button-container">
-                                        <a class="btn btn-default btn-round btn-lg btn-icon"
-                                            href="https://www.facebook.com/luizgabriel.deganutti" rel="tooltip"
-                                            title="Follow me on Facebook"><i class="fa fa-facebook"></i></a>
-                                        <!--a class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip" title="Follow me on Twitter"><i class="fa fa-twitter"></i></a>
-                                    <a class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip" title="Follow me on Google+"><i class="fa fa-google-plus"></i></a>
-                                    <a class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip" title="Follow me on Instagram"><i class="fa fa-instagram"></i></a></div-->
+            <div class="d-flex flex-column flex-sm-row gap-3">
+              <a class="btn btn-success btn-lg" href="https://wa.me/5544998180434" target="_blank" rel="noopener"><i class="bi bi-whatsapp me-2"></i>WhatsApp</a>
+              <a class="btn btn-outline-light btn-lg" href="mailto:deganutti@outlook.com.br"><i class="bi bi-envelope me-2"></i>E-mail</a>
+              <a class="btn btn-outline-light btn-lg" href="https://www.linkedin.com/in/luiz-gabriel-deganutti-20a8245b" target="_blank" rel="noopener"><i class="bi bi-linkedin me-2"></i>LinkedIn</a>
+            </div>
+          </div>
+          <div class="col-lg-5" data-aos="fade-left" data-aos-delay="150">
+            <aside class="hero-card">
+              <img src="assets/img/perfil-placeholder.jpg" class="profile-photo" alt="Foto profissional de Luiz Gabriel Deganutti">
+              <div class="p-4">
+                <h2 class="h5 fw-bold mb-2">Dados profissionais</h2>
+                <ul class="contact-list mb-0">
+                  <li><i class="bi bi-phone"></i><span>(44) 99818-0434</span></li>
+                  <li><i class="bi bi-envelope"></i><span>deganutti@outlook.com.br</span></li>
+                  <li><i class="bi bi-geo-alt"></i><span>Sarandi - Paraná</span></li>
+                  <li><i class="bi bi-translate"></i><span>Português nativo | Inglês básico</span></li>
+                </ul>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </header>
 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="section" id="about">
-                        <div class="container">
-                            <div class="card" data-aos="fade-up" data-aos-offset="10">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-12">
-                                        <div class="card-body">
-                                            <div class="h4 mt-0 title">Sobre</div>
-                                            <p id="habilidades">
+    <section id="perfil" class="section-pad">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10 text-center" data-aos="fade-up">
+            <span class="section-kicker">Perfil profissional</span>
+            <h2 class="section-title">Resumo</h2>
+            <p class="lead profile-summary mb-0">Técnico em agropecuária, com experiência em campo, atuando com MIP, sanidade vegetal, nutrição e gestão de equipes. Busca aplicar conhecimento junto aos produtores rurais para otimizar produtividade e sustentabilidade de projetos rurais, contribuindo com a rentabilidade da produção rural.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-md-12">
-                                        <div class="card-body">
-                                            <div class="h4 mt-0 title">Informações Básicas.
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-4"><strong class="text-uppercase">Idade:</strong>
-                                                </div>
-                                                <div class="col-sm-8" id="idade">Idade</div>
-                                            </div>
-                                            <div class="row mt-3">
-                                                <div class="col-sm-4"><strong class="text-uppercase">Email:</strong>
-                                                </div>
-                                                <div class="col-sm-8">
-                                                    deganutti@outlook.com.br</div>
-                                            </div>
-                                            <div class="row mt-3">
-                                                <div class="col-sm-4"><strong class="text-uppercase">Célular:</strong>
-                                                </div>
-                                                <div class="col-sm-8" id="telefone">+55 (44)
-                                                    9.9818-0434 </div>
-                                            </div>
-                                            <div class="row mt-3">
-                                                <div class="col-sm-4"><strong class="text-uppercase">Endereço:</strong>
-                                                </div>
-                                                <div class="col-sm-8" id="endereco"></div>
-                                            </div>
-                                            <div class="row mt-3">
-                                                <div class="col-sm-4"><strong class="text-uppercase">Linguas:</strong>
-                                                </div>
-                                                <div class="col-sm-8">Português, inglês
-                                                    técnico.</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="section" id="experience">
-                        <div class="container cc-experience">
-                            <div class="h4 text-center mb-4 title">Experiência Profissional.
-                            </div>
-                            <div id="experiencia">
-                            </div>
-                        </div>
-                        <div class="section">
-                            <div class="container cc-education" id="skill">
-                                <div class="h4 text-center mb-4 title" id="formacao">
-                                    Formação Academica e Cursos</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <footer class="footer">
-                    <div class="container text-center">
-                        <a class="cc-facebook btn btn-link" href="https://www.facebook.com/luizgabriel.deganutti"><i
-                                class="fa fa-facebook fa-2x " aria-hidden="true"></i></a>
-                        <!--a class="cc-instagram btn btn-link" href="#"><i class="fa fa-instagram fa-2x " aria-hidden="true"></i></a></div-->
-                        <div class="h4 title text-center">Luiz Gabriel Deganutti</div>
-                        <div class="text-center text-muted">
-                            <p>&copy; Creative CV. All rights reserved.<br>Design - <a class="credit"
-                                    href="https://templateflip.com" target="_blank">TemplateFlip</a></p>
-                        </div>
-                </footer>
-                <script src="js/core/jquery.3.2.1.min.js?ver=1.1.0"></script>
-                <script src="js/core/popper.min.js?ver=1.1.0"></script>
-                <script src="js/core/bootstrap.min.js?ver=1.1.0"></script>
-                <script src="js/now-ui-kit.js?ver=1.1.0"></script>
-                <script src="js/aos.js?ver=1.1.0"></script>
-                <script src="scripts/main.js?ver=1.1.0"></script>
-    </body>
+    <section id="experiencia" class="section-pad bg-soft">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-4" data-aos="fade-right">
+            <span class="section-kicker">Trajetória</span>
+            <h2 class="section-title">Experiência profissional</h2>
+            <p class="section-text">Histórico organizado em linha do tempo para leitura rápida por recrutadores, cooperativas e empresas do agronegócio.</p>
+          </div>
+          <div class="col-lg-8" data-aos="fade-left">
+            <div class="timeline">
+              <article class="timeline-item">
+                <div class="timeline-date">Ago/2024 - Presente</div>
+                <h3>Perito Agricola — Sarandi, PR</h3>
+                <p>Elaboração de laudos técnicos de perdas, produção, índices pluviométricos e demais dados correlacionados à produção agrícola.</p>
+              </article>
+              <article class="timeline-item">
+                <div class="timeline-date">Jan/2024 - Jul/2025</div>
+                <h3>Cooperativa Agropecuária Cocari — São Luiz / Marialva, PR</h3>
+				<h4>Técnico Agricola</h4>
+                <ul>
+                  <li>Assistência técnica e comercial, com gerenciamento do relacionamento com produtores.</li>
+                  <li>Posicionamento estratégico de controle fitossanitário para daninhas, doenças e pragas.</li>
+                  <li>Controle biológico de lagartas, cigarrinha do milho e outras pragas.</li>
+                  <li>Recomendação de cultivares e plano de adubação com base em análise de solo.</li>
+                </ul>
+              </article>
+			  <article class="timeline-item">
+                <div class="timeline-date">Mai/2010 - Jan/2024</div>
+                <h3>Desenvolvimento Profissional — Maringá, PR</h3>
+				<h4>Capacitação Profissional</h4>
+                <ul>
+                  <li>Atuação em segmento profissional distinto do agronegócio, desenvolvendo competências em </br>
+						relacionamento com clientes, atendimento, gestão de processos, negociação, tecnologia e resolução</br>
+						de problemas, comunicação assertiva. Paralelamente, realizou capacitações técnicas na área agrícola, 
+						culminando no retorno profissional ao agronegócio em 2024.</li> 
+                </ul>
+              </article>
+			  <article class="timeline-item">
+                <div class="timeline-date">Fev/2009 - Mai/2010</div>
+                <h3>Frangos Maringá — Maringá, PR</h3>
+				<h4>Técnico Agricola</h4>
+                <ul>
+                  <li>Responsável pelo alojamento de pintainhos de um dia.</li>
+                  <li>Vacinação de pintainhos conforme calandário de vacinação exigidos pelo MAPA.</li>
+                  <li>Acompanhamento técnico e recomendação de manejo pré e pós alojamento.</li>
+                </ul>
+              </article>
+              <article class="timeline-item">
+                <div class="timeline-date">Abr/2008 - Dez/2008</div>
+                <h3>Usina Santa Teresinha — Maringá, PR</h3>
+				<h4>Técnico Agricola</h4>
+                <ul>
+                  <li>Execução do programa de controle biológico da broca da cana-de-açúcar com <em>Cotesia flavipes</em>.</li>
+                  <li>Acompanhamento técnico da aplicação dos biológicos e desenvolvimento da cultura.</li>
+                </ul>
+              </article>
+              <article class="timeline-item">
+                <div class="timeline-date">Set/2004 - Abr/2005</div>
+                <h3>João Maria de Almeida — Itiquira, MT</h3>
+				<h4>Técnico Agricola</h4>
+                <ul>
+                  <li>Monitoramento e diagnóstico de pragas e doenças em lavouras de soja e milho.</li>
+                  <li>Coordenação de equipe de campo com aproximadamente 15 pessoas.</li>
+                  <li>Acompanhamento do ciclo produtivo: plantio, tratos culturais e colheita.</li>
+                </ul>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section id="competencias" class="section-pad">
+      <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up">
+          <span class="section-kicker">Competências</span>
+          <h2 class="section-title">Habilidades técnicas</h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-xl-4" data-aos="zoom-in"><div class="skill-card"><i class="bi bi-clipboard2-pulse"></i><h3>Interpretação agronômica</h3><p>Análises de solo e foliares para suporte à tomada de decisão.</p></div></div>
+          <div class="col-md-6 col-xl-4" data-aos="zoom-in" data-aos-delay="100"><div class="skill-card"><i class="bi bi-bug"></i><h3>Manejo fitossanitário</h3><p>Manejo de plantas daninhas, pragas e doenças em campo.</p></div></div>
+          <div class="col-md-6 col-xl-4" data-aos="zoom-in" data-aos-delay="200"><div class="skill-card"><i class="bi bi-people"></i><h3>Gestão de equipes</h3><p>Coordenação de equipes e processos rurais.</p></div></div>
+          <div class="col-md-6 col-xl-4" data-aos="zoom-in"><div class="skill-card"><i class="bi bi-bank"></i><h3>Crédito rural e PROAGRO</h3><p>Conhecimento complementar aplicado ao contexto agropecuário.</p></div></div>
+          <div class="col-md-6 col-xl-4" data-aos="zoom-in" data-aos-delay="100"><div class="skill-card"><i class="bi bi-file-earmark-check"></i><h3>Auditoria agrícola</h3><p>Organização de dados, indicadores, laudos e avaliações técnicas.</p></div></div>
+          <div class="col-md-6 col-xl-4" data-aos="zoom-in" data-aos-delay="200"><div class="skill-card"><i class="bi bi-flower1"></i><h3>Biológicos</h3><p>Atuação com controle biológico e acompanhamento técnico.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="formacao" class="section-pad bg-dark-green text-white">
+      <div class="container">
+        <div class="row g-4 align-items-stretch">
+          <div class="col-lg-5" data-aos="fade-right">
+            <span class="section-kicker light">Formação</span>
+            <h2 class="section-title text-white">Formação acadêmica</h2>
+          </div>
+          <div class="col-lg-7" data-aos="fade-left">
+            <div class="education-card mb-3">
+              <span>Em andamento — previsão 2029</span>
+              <h3>Engenharia Agronômica</h3>
+              <p>Uniasselvi — Sarandi, PR</p>
+            </div>
+            <div class="education-card">
+              <span>Concluído em 2003</span>
+              <h3>Técnico em Agropecuária</h3>
+              <p>Colégio Agrícola Senador Carlos Gomes de Oliveira — Araquari, SC</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cursos" class="section-pad">
+      <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up">
+          <span class="section-kicker">Atualização profissional</span>
+          <h2 class="section-title">Cursos complementares</h2>
+        </div>
+        <div class="table-responsive cv-table-wrap" data-aos="fade-up">
+          <table class="table cv-table align-middle mb-0">
+            <thead><tr><th>Curso</th><th>Instituição</th><th>Carga horária</th></tr></thead>
+            <tbody>
+              <tr><td>Crédito Rural</td><td>ENPGOVBR</td><td>20h</td></tr>
+              <tr><td>PROAGRO: O que você precisa saber</td><td>ENPGOVBR</td><td>12h</td></tr>
+              <tr><td>Agricultura de Precisão na Aplicação de Defensivos</td><td>ENPGOVBR</td><td>17h</td></tr>
+              <tr><td>Gestão da Atividade Agropecuária: Custos de Produção</td><td>ENPGOVBR</td><td>3h</td></tr>
+              <tr><td>Aplicação de Defensivos Agrícolas</td><td>ENPGOVBR</td><td>3h</td></tr>
+              <tr><td>Procedimentos Legais para Uso de Drones</td><td>ENPGOVBR</td><td>2h</td></tr>
+              <tr><td>Projetista de Crédito Rural</td><td>EDUC</td><td>40h</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section-pad cta-section">
+      <div class="container">
+        <div class="cta-card text-center" data-aos="zoom-in">
+          <span class="section-kicker light">Contato</span>
+          <h2 class="section-title text-white">Disponível para oportunidades profissionais no agronegócio</h2>
+          <p class="text-white-75 mb-4">Sarandi - PR | Técnico em Agropecuária | Agrônomo em formação</p>
+          <div class="d-flex flex-column flex-sm-row justify-content-center gap-3">
+            <a class="btn btn-light btn-lg" href="https://wa.me/5544998180434" target="_blank" rel="noopener"><i class="bi bi-whatsapp me-2"></i>WhatsApp</a>
+            <a class="btn btn-outline-light btn-lg" href="mailto:deganutti@outlook.com.br"><i class="bi bi-envelope me-2"></i>E-mail</a>
+            <a class="btn btn-outline-light btn-lg" href="https://www.linkedin.com/in/luiz-gabriel-deganutti-20a8245b" target="_blank" rel="noopener"><i class="bi bi-linkedin me-2"></i>LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <a class="whatsapp-float" href="https://wa.me/5544998180434" target="_blank" rel="noopener" aria-label="Chamar Luiz Gabriel no WhatsApp"><i class="bi bi-whatsapp"></i></a>
+
+  <footer class="site-footer py-4">
+    <div class="container d-flex flex-column flex-md-row justify-content-between gap-2">
+      <span>© 2026 Luiz Gabriel Deganutti</span>
+      <span>Curriculum Vitae Online</span>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
 </html>
